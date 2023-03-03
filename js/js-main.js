@@ -165,7 +165,7 @@ BRUSHED.fancyBox = function(){
 				padding : 0,
 				beforeShow: function () {
 					this.title = $(this.element).attr('title');
-					this.title = '<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>'+'<a href="#contact"  onClick="$.fancybox.close()" class="button bdesk">'+'Enquiry'+'</a>' + '<a href="tel:+919923441415"  onClick="$.fancybox.close()" class="button bmob">'+'Enquiry'+'</a>';
+					this.title = '<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>'+'<a href="#contact"  onClick="$.fancybox.close()" class="button bdesk">'+'Enquiry'+'</a>' + '<a href="tel:+919309127838"  onClick="$.fancybox.close()" class="button bmob">'+'Enquiry'+'</a>';
 					
 				},
 				helpers : {
