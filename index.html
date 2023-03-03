@@ -171,34 +171,41 @@
               to achieve your comfort and satisfaction whether you are traveling for business or pleasure.
               A collection of cars of different economic ranges that suits your needs and budget are
               available. Also there is a provision of discount car rentals</h3>
+              <!-- HTML !-->
+              
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- End Title Page -->
-
-      <!-- Portfolio Projects -->
-      <div class="row" id="services">
-        <div class="span3">
-          <!-- Filter -->
-          <nav id="options" class="work-nav">
-            <ul id="filters" class="option-set" data-option-key="filter"
-              style="font-family: Nunito, sans-serif; font-size: xx-large;">
-
-              <li class="type-work">Type of Cars</li>
-              <li><a href="#filter" data-option-value=".sedan">Sedan Car - 4 Seater</a></li>
-
-            </ul>
-          </nav>
-          <!-- End Filter -->
-        </div>
-
-        <div class="span9">
-          <div class="row">
-            <section id="projects">
-              <ul id="thumbs">
-
-
-
+          <!-- End Title Page -->
+          
+          <!-- Portfolio Projects -->
+          <div class="row" id="services" style="margin-top: -10%;">
+            <div class="span3">
+              <!-- Filter -->
+              <nav id="options" class="work-nav">
+                <ul id="filters" class="option-set" data-option-key="filter"
+                style="font-family: Nunito, sans-serif; font-size: xx-large;">
+                
+                <li class="type-work">Type of Cars</li>
+                <li>
+                  <a href="#filter" data-option-value=".sedan">Sedan Car - 4 Seater</a>
+                </li>
+                
+                
+              </ul>
+              
+            </nav>
+            
+            <!-- End Filter -->
+          </div>
+          
+          <div class="span9">
+            
+            <div class="row">
+              <section id="projects">
+                <ul id="thumbs">
+                  
+                  
+                  
                 <!-- Item Project and Filter Name -->
                 <li class="item-thumbs span3 sedan">
                   <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -208,22 +215,28 @@
                     <span class="overlay-img-thumb font-icon-plus"></span>
                   </a>
                   <!-- Thumb Image and Description -->
-                  <img src="images/amazetransperent.png"
-                    alt="Luxury with unmatched comfort, this car is perfect for your short road journeys. Its decent boot size is good enough to carry luggage for the small group of people.">
+                  <img src="images/amazetransperent1.png"
+                  alt="Luxury with unmatched comfort, this car is perfect for your short road journeys. Its decent boot size is good enough to carry luggage for the small group of people.">
                   <div>
                     <div style="display: flex; align-items: center;
                                         justify-content: center;" class="carname">Honda Amaze- <span
                         class="smalltxt">Rs. 11(AC) / Km </span>
-                    </div>
-                    <div style="display: flex; align-items: center;
+                      </div>
+                      <div style="display: flex; align-items: center;
                                         justify-content: center;" class="readmo">Read More about this car</div>
-                </li>
 
+</li>
+
+
+
+<!-- End Item Project -->
+
+</ul>
+</section>
+<button class="button-85" role="button">Call Us To Book Your Ride</button>
+        
+            
           </div>
-          <!-- End Item Project -->
-
-          </ul>
-          </section>
 
         </div>
       </div>
@@ -261,8 +274,7 @@
 
           <div class="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df"
             style="margin-top: -20%;">
-            <form action="http://wa.me/+918275578157" id="contact-for" method="post"
-              onsubmit="return nodifyFormAction()">
+            <form id="contactForm">
               <div class="form-wrapper">
                 <input class="input input-element" name="Name" id="name" placeholder="Name" required>
                 <input class="input input-element" name="Contact Number" id="contactNo" placeholder="Contact Number"
@@ -393,11 +405,11 @@
       const date = document.getElementById('date').value;
 
       const message = document.getElementById('message').value;
-    
+
       const url = "http://wa.me/+918275578157/?text=" + encodeURIComponent(name) +
-              "&contactNo=" + encodeURIComponent(contactNo) +
-              "&source=contact-form";
-      
+        "&contactNo=" + encodeURIComponent(contactNo) +
+        "&source=contact-form";
+
       // const url = "http://wa.me/+918275578157/?text=" + encodeURIComponent(`Hi, I'm interested in renting a car from your business. Can you provide more information about your available cars and prices?\nMy name: ${name}\nContact No: ${contactNo}\nStarting Point: ${startingPoint}\nEnding Point: ${endingPoint}\nDate: ${date}\nMessage: ${Message}Thank you!`);
 
 
