@@ -12,16 +12,20 @@
  
 
   
-  .nav {
+  .navbar {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
   }
   
-  .nav a {
+  .navbar a {
     color: rgb(12, 12, 12);
     text-decoration: none;
     padding: 10px;
+  }
+
+  .navbar a:hover{
+    color: red;
   }
   
   .hero {
